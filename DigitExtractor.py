@@ -52,7 +52,7 @@ Parameters:
 """
 def ListScannedPages(folder_loc):
 
-    os.makedirs("Digit Images")
+    os.makedirs("digit-images")
     annotationCreator(annotation_file_name) # To create an annotation file list
 
     for sFile in os.listdir(folder_loc):
@@ -105,7 +105,7 @@ def ExtractDigits(file_loc, fileName, fileExt, x1, y1, width, height):
 
             annotationFiller(imageName, str(digit), annotation_file_name) #Insert the file name and class to the annotation file list
 
-            digit_image.save("Digit Images/" + imageName, dpi=(300,300))
+            digit_image.save("digit-images/" + imageName, dpi=(300,300))
 
 
             level -= 1
@@ -155,7 +155,7 @@ def annotationFiller(c1, c2, fileName):
 
 
 def main():
-    ListScannedPages("Scanned Pages")
+    ListScannedPages("scanned-pages")
     print("The above three red lines are not errors, these are just warnings. The program completed successfully")
 
 main()
