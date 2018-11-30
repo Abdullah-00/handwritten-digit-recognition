@@ -6,8 +6,7 @@ handwritten Arabic numerals from digit images.</p>
 
 <b>The project consists of three phases:</b>
 <ul>
-    <li><b>1- Data collection and labelling:</b> in this phase, a python code will be implemented to extract the digits from a handwritten Arabic numerals samples. See the below sample. </li>
-    <img src="scanned-pages/T1M1.tif" alt="Handwritten Arabic Numerals Sample">
+    <li><b>1- Data collection and labelling:</b> in this phase, a python code will be implemented to extract the digits from a handwritten Arabic numerals samples. </li>
     <li><b>2- Image normalization and feature extraction from the digit images + Learning and
 Classification</b></li>
     <li><b>3- Finalizing the work</b></li>
