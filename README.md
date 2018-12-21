@@ -5,14 +5,15 @@
 handwritten Arabic numerals from digit images.</p>
 
 <b>The project consists of three phases:</b>
-<ul>
-    <li><b>1- Data collection and labelling:</b> in this phase, a python code will be implemented to extract the digits from a handwritten Arabic numerals samples. </li>
-    <li><b>2- Image normalization and feature extraction from the digit images + Learning and
-Classification</b></li>
-    <li><b>3- Finalizing the work</b></li>
-</ul>
+<ol>
+    <li>Data collection and labelling</li>
+    <li>Image normalization and feature extraction from the digit images + Training and
+Classification</li>
+    <li>Finalizing the work</li>
+</ol>
 
 <b>External Library Used:</b>
 <ul>
-    <li><b><a href="https://pillow.readthedocs.io/en/5.3.x/index.html"></a>Pillow</b></li>
+    <li>Pillow</li>
+    <li>NumPy</li>
 </ul>
